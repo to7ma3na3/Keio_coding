@@ -785,7 +785,7 @@ header #main-menu-2 {
   background-color: #7683D2;
 }
 
-.sec4 dl .tab dd .block2 {
+.sec4 dl .tab dd .block2 a {
   margin: 6px 0 16px 0;
   font-size: 15px;
   letter-spacing: 1px;
@@ -1684,13 +1684,19 @@ footer .copy span {
   .sec4-2 dl dd ul li .block1 {
     display: block;
     width: 200px;
+    box-sizing: border-box;
     padding-top: 8px;
   }
 
   .sec4-2 dl .tab dd .block2 {
     display: block;
+    box-sizing: border-box;
     width: calc(100% - 200px);
-    margin: 6px 0 6px 0;
+    margin: 6px 5px;
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+  .sec4-2 dl .tab dd .block2 a {
     color: #245dc1;
   }
   
@@ -1738,6 +1744,10 @@ footer .copy span {
     text-align: end;
   }
   
+  .sec4-2 dl dd .linkBa a {
+    color: #245dc1;
+  }
+
   .sec4-2 dl dd .linkBa a img {
     vertical-align: bottom;
   }
@@ -2938,7 +2948,7 @@ footer .copy span {
     /* top: -150px;
     left: 70px; */
     background-color: #ff9f1a;
-  } */
+  } 
   
   .sec6 .container2 {
     padding-bottom: 10px;
