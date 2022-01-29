@@ -647,6 +647,7 @@ header #main-menu-2 {
 }
 
 .sec2 ul li a div {
+  color: #000;
   padding: 15px 5px;
   border: 1px solid #ccc;
   text-align: center;
